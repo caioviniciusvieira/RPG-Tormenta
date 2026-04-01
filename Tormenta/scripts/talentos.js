@@ -16,8 +16,8 @@ function rolar_dado(botao){
     }
     valor = dado()
     resultado = valor + soma
-    console.log("Rolagem do dado",valor)
-    console.log("Valor",resultado)
+    console.log("Rolagem do dado:",valor)
+    console.log("Valor:",resultado)
 
-    window.alert(`1d20+[${soma}] = ${resultado}`)
+    window.alert(`1d20[${valor}]+${soma} = ${resultado}`)
 }
