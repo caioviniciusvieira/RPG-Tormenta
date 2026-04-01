@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Tormenta/src/CSS/talentos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="talentos-container">
+        <div class="tabela-pericias">
+            <table>
+                <tr>
+                    <td></td>
+                    <th>Perícias</th>
+                    <th>Total</th>
+                    <th>1/2nível</th>
+                    <th>Atributo</th>
+                    <th>Treino</th>
+                    <th>Outros</th>
+                </tr>
+                <tr>
+                    <td><button onclick="rolar_dado(this)">Dado</button></td>
+                    <td>Acrobacia</td>
+                    <td><input class="total type="number" placeholder="0"></td>
+                    <td><input class="nivel" type="number"></td>
+                    <td><input class="atributo" type="number"></td>
+                    <td><input class="treino" type="number"></td>   
+                    <td><input class="outros" type="number"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="rolar_dado(this)">Dado</button></td>
+                    <td>Adestramento</td>
+                    <td><input type="number" placeholder="0"></td>
+                    <td><input class="nivel" type="number"></td>
+                    <td><input class="atributo" type="number"></td>
+                    <td><input class="treino" type="number"></td>   
+                    <td><input class="outros" type="number"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="/Tormenta/scripts/talentos.js"></script>
+</body>
+</html>
